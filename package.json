@@ -1,0 +1,17 @@
+{
+  "name": "practice-database",
+  "version": "1.0.0",
+  "description": "Database practice with SQLite and JavaScript",
+  "main": "book_manager.js",
+  "type": "module",
+  "scripts": {
+    "start": "node book_manager.js",
+    "interactive": "node book_manager.js -i"
+  },
+  "keywords": ["sqlite", "database", "practice"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0"
+  }
+}
